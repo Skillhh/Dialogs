@@ -24,7 +24,3 @@ EOF
 [ $counter -eq 100 ] && break
 
 done | dialog --title "Copy File" --clear --gauge "Please wait" 10 70 0
-clear
-#echo $counter
-#ls ${ORG}
-#ls ${DEST}
